@@ -14,7 +14,7 @@ LABEL maintainer="https://github.com/miztiik"
 
 # Install the dependencies
 RUN pip install flask flask-cors requests geopy pytz gunicorn
-
+RUN clear 
 # Lets copy the app source code to the container image
 COPY ./src /var/predict-attire-for-weather
 
